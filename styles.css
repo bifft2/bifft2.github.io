@@ -1,0 +1,25 @@
+#container {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
+.website-title {
+	margin-top: 20px;
+}
+
+#title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	font-size: 72px;
+	color: white;
+}
